@@ -425,8 +425,8 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
         <!--  WELCOME  -->
         <div id="welcome">
           <h1>
-            <span> Hello there, </span>
-            Welcome nx-test-angular 👋
+            <span> Hello developer, </span>
+            Welcome My First Nx Project 👋
           </h1>
         </div>
 
