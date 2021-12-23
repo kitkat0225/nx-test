@@ -5,13 +5,6 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 @Component({
   selector: 'nx-test-nx-welcome',
   template: `
-    <!--
-     * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-     This is a starter component and can be deleted.
-     * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-     Delete this file and get started with your project!
-     * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-     -->
     <style>
       html {
         -webkit-text-size-adjust: 100%;
