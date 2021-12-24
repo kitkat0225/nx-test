@@ -1,10 +1,19 @@
-.home-content {
-    background-color: aquamarine;
+.title {
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: larger;
+    text-align: center;
 }
 
-.search-res {
-    width: 200px;
-    height: 200px;
+.description {
+    font-weight: bold;
+    padding: 20px;
+}
+
+.employee-container {
+    padding: 10px;
+    width: 120px;
+    height: 120px;
 }
 
 .employee {
