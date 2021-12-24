@@ -1,12 +1,11 @@
-<p>
-    home works!
-
-    This is visible ({{ visible }})
+<p class="title">
+    Individual Company
 </p>
-<div class="home-content">
-    This is home content.
+<div class="description">
+    These are our employees.
 </div>
 
-<div *ngFor="let result of results" class="search-res" (click)="showEmployee(result._id)">
-    <div [ngStyle]="{ 'background-image': 'url(' + result.image_path+ ')'}" class="employee"> {{ result.name }} </div> 
+<div *ngFor="let result of results" class="employee-container" (click)="showEmployee(result._id)">
+    <div>{{ result.name }}</div>
+    <div [ngStyle]="{ 'background-image': 'url(' + result.image_path+ ')'}" class="employee"></div> 
 </div>
