@@ -25,6 +25,6 @@ export class HomeComponent implements OnInit {
   }
 
   showEmployee(employee_id: any) {
-
+    alert(employee_id);
   }
 }
