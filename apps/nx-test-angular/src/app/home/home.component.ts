@@ -8,6 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   visible: boolean = false;
+  results: Array<any> = [{
+    image_path: 'https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50.jpg',
+    _id: 1,
+    name: 'Alex'
+  }, {
+    image_path: 'https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50.jpg',
+    _id: 2,
+    name: 'Tomason'
+  }];
 
   constructor() { }
 
@@ -15,4 +24,7 @@ export class HomeComponent implements OnInit {
     this.visible = true;
   }
 
+  showEmployee(employee_id: any) {
+
+  }
 }
