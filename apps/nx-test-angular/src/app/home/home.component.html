@@ -6,3 +6,7 @@
 <div class="home-content">
     This is home content.
 </div>
+
+<div *ngFor="let result of results" class="search-res" (click)="showEmployee(result._id)">
+    <div [ngStyle]="{ 'background-image': 'url(' + result.image_path+ ')'}" class="employee"> {{ result.name }} </div> 
+</div>
